@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de recetas</title>
+    <link rel="stylesheet" href="estilosIA.css">
+</head>
+<body>
+
+<header>
+    <h1>Recetas de Cocina</h1>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="catalogo.html">Recetas</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="acerca.html">Quiénes somos</a>
+    </nav>
+</header>
+
+<main>
+    <h2>Catálogo de recetas</h2>
+
+    <section class="selector">
+
+        <input type="radio" name="categoria" id="todas" checked>
+        <label for="todas">Todas</label>
+
+        <input type="radio" name="categoria" id="salado">
+        <label for="salado">Salado</label>
+
+        <input type="radio" name="categoria" id="dulce">
+        <label for="dulce">Dulce</label>
+
+        <div class="contenedor-recetas">
+
+            <!-- SALADO -->
+
+            <article class="receta salada">
+                <h3>Empanadas de carne</h3>
+
+                <img src="imagenes/receta1.png"
+                     alt="Empanadas de carne">
+
+                <a class="boton"
+                   href="recetarios/receta1.pdf"
+                   download>
+                    Descargar receta
+                </a>
+            </article>
+
+            <article class="receta salada">
+                <h3>Tarta de verduras</h3>
+
+                <img src="imagenes/receta2.png"
+                     alt="Tarta de verduras">
+
+                <a class="boton"
+                   href="recetarios/receta2.pdf"
+                   download>
+                    Descargar receta
+                </a>
+            </article>
+
+            <article class="receta salada">
+                <h3>Pizza casera</h3>
+
+                <img src="imagenes/receta3.png"
+                     alt="Pizza casera">
+
+                <a class="boton"
+                   href="recetarios/receta3.pdf"
+                   download>
+                    Descargar receta
+                </a>
+            </article>
+
+            <!-- DULCE -->
+
+            <article class="receta dulce">
+                <h3>Torta de chocolate</h3>
+
+                <img src="imagenes/receta4.png"
+                     alt="Torta de chocolate">
+
+                <a class="boton"
+                   href="recetarios/receta4.pdf"
+                   download>
+                    Descargar receta
+                </a>
+            </article>
+
+            <article class="receta dulce">
+                <h3>Galletitas de avena</h3>
+
+                <img src="imagenes/receta5.png"
+                     alt="Galletitas de avena">
+
+                <a class="boton"
+                   href="recetarios/receta5.pdf"
+                   download>
+                    Descargar receta
+                </a>
+            </article>
+
+            <article class="receta dulce">
+                <h3>Budín de banana</h3>
+
+                <img src="imagenes/receta6.png"
+                     alt="Budín de banana">
+
+                <a class="boton"
+                   href="recetarios/receta6.pdf"
+                   download>
+                    Descargar receta
+                </a>
+            </article>
+
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>Recetas de Cocina</p>
+</footer>
+
+</body>
+</html>
